@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/l/Desktop/6463ADVHDes/code/project_1/project_1.sim/sim_1/synth/timing/LRT_TB_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LRT
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/l/Desktop/6463ADVHDes/code/project_1/project_1.srcs/sim_1/new/LRT_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LRT_TB

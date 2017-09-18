@@ -1,0 +1,186 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "LRT")
+(DATE "Mon Sep 18 16:11:57 2017")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2017.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output\[0\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2428.6:2584.4:2584.4) (2428.6:2584.4:2584.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE output\[0\]_INST_0_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (789.5:922.6:922.6) (789.5:922.6:922.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output\[1\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2428.6:2584.4:2584.4) (2428.6:2584.4:2584.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE output\[1\]_INST_0_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (789.5:922.6:922.6) (789.5:922.6:922.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output\[2\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2428.6:2584.4:2584.4) (2428.6:2584.4:2584.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE output\[2\]_INST_0_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (789.5:922.6:922.6) (789.5:922.6:922.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output\[3\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2428.6:2584.4:2584.4) (2428.6:2584.4:2584.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE output\[3\]_INST_0_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (789.5:922.6:922.6) (789.5:922.6:922.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output\[4\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2428.6:2584.4:2584.4) (2428.6:2584.4:2584.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE output\[4\]_INST_0_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (789.5:922.6:922.6) (789.5:922.6:922.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output\[5\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2428.6:2584.4:2584.4) (2428.6:2584.4:2584.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE output\[5\]_INST_0_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (789.5:922.6:922.6) (789.5:922.6:922.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output\[6\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2428.6:2584.4:2584.4) (2428.6:2584.4:2584.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE output\[6\]_INST_0_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (789.5:922.6:922.6) (789.5:922.6:922.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output\[7\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2428.6:2584.4:2584.4) (2428.6:2584.4:2584.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE output\[7\]_INST_0_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (789.5:922.6:922.6) (789.5:922.6:922.6))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "LRT")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT output\[0\]_INST_0_i_1/O output\[0\]_INST_0/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT output\[1\]_INST_0_i_1/O output\[1\]_INST_0/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT output\[2\]_INST_0_i_1/O output\[2\]_INST_0/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT output\[3\]_INST_0_i_1/O output\[3\]_INST_0/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT output\[4\]_INST_0_i_1/O output\[4\]_INST_0/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT output\[5\]_INST_0_i_1/O output\[5\]_INST_0/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT output\[6\]_INST_0_i_1/O output\[6\]_INST_0/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT output\[7\]_INST_0_i_1/O output\[7\]_INST_0/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      )
+    )
+)
+)
