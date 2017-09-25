@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: 
--- Engineer: 
+-- Engineer: Nie13
 -- 
 -- Create Date: 09/18/2017 03:48:22 PM
 -- Design Name: 
@@ -21,6 +21,7 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -36,16 +37,36 @@ entity LRT_TB is
 end LRT_TB;
 
 architecture Behavioral of LRT_TB is
-signal a, b: std_logic_vector (7 downto 0);
+signal a, c: std_logic_vector (31 downto 0);
+signal b: std_logic_vector (31 downto 0);
 component LRT
-port (input: in std_logic_vector (7 downto 0);
-        output: out std_logic_vector (7 downto 0));
+port (a: in std_logic_vector (31 downto 0);
+        b: in std_logic_vector (31 downto 0);
+        c: out std_logic_vector (31 downto 0));
 end component;
 begin
-DUT: LRT port map (a, b);
+DUT: LRT port map (a, b, c);
 test: process
 begin
-a <= "10010110"; wait for 10 ns;
-a <= "00100101"; wait for 10 ns;
+a <= "10010110100011010010011011110001"; 
+b <= "00000000000000000000000000000010"; 
+wait for 10 ns;
+
+b <= "00000000000000000000000000000011"; 
+wait for 10 ns;
+
+a <= "00000000000000000000000000000001";
+b <= "00000000000000000000000000000111";
+wait for 10ns;
+
+b <= "00000000000000000000000000001000";
+wait for 10ns;
+
+b <= "00000000000000000000000111110001";
+wait for 10ns;
+
+b <= "10000000000000000000000000000001";
+wait for 10ns;
+
 end process;
 end Behavioral;
