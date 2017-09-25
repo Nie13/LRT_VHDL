@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1506312580">
-  <File Type="RDS-PROPCONSTRS" Name="LRT_drc_synth.rpt"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1506313030">
   <File Type="PA-TCL" Name="LRT.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="LRT_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="LRT.vds"/>
   <File Type="RDS-UTIL" Name="LRT_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="LRT_utilization_synth.pb"/>

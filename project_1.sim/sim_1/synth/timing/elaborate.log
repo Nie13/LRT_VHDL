@@ -18,8 +18,9 @@ Compiling package vl.vl_types
 Compiling module xil_defaultlib.glbl
 Compiling module simprims_ver.IBUF
 Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
 Compiling module simprims_ver.LUT6
-Compiling module simprims_ver.LUT4
 Compiling module xil_defaultlib.LRT
 Compiling architecture behavioral of entity xil_defaultlib.lrt_tb
 Built simulation snapshot LRT_TB_time_synth

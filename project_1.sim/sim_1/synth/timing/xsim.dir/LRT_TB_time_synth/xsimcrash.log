@@ -1,5 +1,5 @@
-Unable to capture context for thread 9932 in process 6556, can not generate back trace
-Unable to capture context for thread 6916 in process 6556, can not generate back trace
+Unable to capture context for thread 7936 in process 10172, can not generate back trace
+Unable to capture context for thread 12892 in process 10172, can not generate back trace
 Exception at PC 0x00007FFEC8C5BB93
 Printing stacktrace...
 
